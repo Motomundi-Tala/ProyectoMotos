@@ -1,0 +1,115 @@
+
+    body {
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        background-color: #f4f7fc; /* Color de fondo más claro */
+        color: #444; /* Color de texto más oscuro para mejor contraste */
+    }
+    .header {
+        background-color: #2a3d66; /* Fondo oscuro para el header */
+        padding: 1rem;
+        text-align: center;
+        color: #fff;
+        position: relative; /* Para posicionar el logo en la parte superior derecha */
+    }
+    .header h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+    .logo {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        width: 50px; /* Ajusta el tamaño del logo */
+    }
+
+    .menu_P {
+        display: flex;
+        justify-content: center;
+        background-color: #3c4e75; /* Fondo para el menú */
+        padding: 1rem 0;
+    }
+    .menu_P a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.75rem 1.5rem;
+        margin: 0 0.5rem;
+        font-weight: 600;
+        transition: background 0.3s;
+    }
+    .menu_P a:hover {
+        background-color: #556b8e; /* Color de fondo al pasar el mouse */
+        border-radius: 5px;
+    }
+    .content {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 1rem;
+        text-align: center;
+    }
+    .content h2 {
+        color: #2a3d66; /* Color para los encabezados */
+    }
+    .content p {
+        color: #555; /* Color de texto más claro para los párrafos */
+    }
+
+   
+    .header {
+        background-color: #005b96; /* Azul similar a Bitnami */
+        padding: 1.5rem;
+        text-align: center;
+        color: #fff;
+    }
+   
+  
+    .form-container, .table-container {
+        background: #ffffff;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        margin-bottom: 2rem;
+    }
+    .form-container input, .form-container textarea {
+        width: calc(100% - 20px);
+        padding: 0.75rem;
+        margin: 0.5rem 0;
+        border: 1px solid #e5e7eb; /* Borde claro */
+        border-radius: 8px;
+        font-size: 1rem;
+        color: #4b5563;
+    }
+    .form-container button {
+        background-color: #0284c7; /* Color azul Bitnami */
+        color: #fff;
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+    }
+    .form-container button:hover {
+        background-color: #0369a1; /* Un tono más oscuro para el hover */
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+    table th, table td {
+        padding: 1rem;
+        text-align: left;
+        border-bottom: 1px solid #e5e7eb;
+    }
+    table th {
+        background-color: #0284c7; /* Azul Bitnami para encabezado */
+        color: #ffffff;
+        font-weight: 600;
+    }
+    table tr:hover {
+        background-color: #f1f5f9; /* Fondo claro al hacer hover */
+    }
